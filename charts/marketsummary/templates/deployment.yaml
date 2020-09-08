@@ -6,6 +6,7 @@ metadata:
     app: {{ .Chart.Name }}
     version: {{ .Values.version }}  
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: {{ .Chart.Name }}
