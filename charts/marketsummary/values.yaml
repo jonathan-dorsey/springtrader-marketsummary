@@ -17,7 +17,7 @@ service:
   port: 5555
 
 hpa:
-  enabled: true
+  enabled: false
   minReplicas: 1
   maxReplicas: 2
   cpu: 80
